@@ -15,21 +15,45 @@ h1 {
   text-align: center;
 }
 
-.fondoSpecial {
-  background-image: url("../img/fondoSpecial.jpg");
+.fondoContact {
+  background-image: url("../img/fondoContact.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
   margin-left: 55px;
   margin-right: 55px;
 }
 
-.sectionSpecial {
+h2 {
+  font-size: 1.5rem;
+  font-style: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+  /* text-align: center; */
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  background-color: rgba(0, 138, 255, 0.2)
+}
+
+label {
+  font-size: 1rem;
+  font-style: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.form-control {
+  background-color: rgba(0, 138, 255, 0.2)
+}
+
+/* .sectionContact {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
+} */
 
 div .card {
   margin-top: 4vh;
@@ -67,3 +91,4 @@ div .card {
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
