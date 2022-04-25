@@ -37,6 +37,22 @@ h2 {
   background-color: rgba(0, 138, 255, 0.2)
 }
 
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  font-size: 1rem;
+  font-style: none;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+#addon-wrapping {
+  font-size: 1rem;
+  font-style: none;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+}
+
 label {
   font-size: 1rem;
   font-style: none;
